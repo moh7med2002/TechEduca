@@ -43,7 +43,7 @@ export default function SelectCourse(){
                                 <div>
                                     <h4 className='font-bold text-h6 text-[21px] mt-2'>{fetchedBlog.name}</h4>
                                     <p  className="text-[#686F7A] leading-[120%] mt-2 xl:pr-8">
-                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&rsquo;s 
                                         standard dummy text ever.</p>
                                 </div>
                                 <div>
