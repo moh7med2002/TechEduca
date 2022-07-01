@@ -13,7 +13,7 @@ export default function HomeLand(){
                     <p className="text-white font-medium lg:w-[80%] mx-auto text-center mt-3">
                         There are many variations of passages of Lorem Ipsum available, 
                         but the majority have suffered alteration in some form, by injected humour, 
-                        or randomised words which don't look even slightly believable.</p>
+                        or randomised words which don&rsquo;t look even slightly believable.</p>
 
                     <div className="flex items-center justify-center gap-x-2 gap-y-4 mt-4">
                         <div className="w-[120px] h-[40px] bg-blue text-white rounded-md flex items-center justify-center font-medium cursor-pointer

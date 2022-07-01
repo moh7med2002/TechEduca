@@ -9,7 +9,7 @@ import {FiPaperclip} from 'react-icons/fi'
 import Head from 'next/head'
 
 
-export default function selectCourse(){
+export default function SelectCourse(){
     const router=useRouter();
     const {courseId}=router.query;
     const[isFetched,setIsFetched]=useState(false);

@@ -14,7 +14,7 @@ export default function Courses(){
                 <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-8 mt-7 sm:mt-9'>
                     {
                         popularCourse.map(course=>{
-                            return <CourseBox {...course}/>
+                            return <CourseBox {...course} key={course.id}/>
                         })
                     }
                 </div>
