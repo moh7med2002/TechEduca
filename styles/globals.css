@@ -1,16 +1,28 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.container-2{
+    @apply
+    px-2 xl:px-10
+    mx-auto
 }
-
-a {
-  color: inherit;
-  text-decoration: none;
+.navLink{
+    @apply
+    text-blue font-semibold text-lg lg:mr-4 duration-200 hover:text-yellow lg:my-0 my-2 lg:ml-0 ml-3
 }
-
-* {
-  box-sizing: border-box;
+.overlay{
+    position: relative;
+}
+.overlay::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(9,5,54,0.3) ,rgba(4,5,46,0.7));
+    z-index: 1;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.enroll{
+    box-shadow: 0 20px 40px 0 rgb(11, 2, 55,8%);
 }
